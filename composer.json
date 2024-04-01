@@ -1,0 +1,16 @@
+{
+    "name": "guilherme.muller2/sistema-de-login-feito-por-mim",
+    "autoload": {
+        "psr-4": {
+            "GuilhermeMuller2\\SistemaDeLoginFeitoPorMim\\": "src/",
+            "app\\":"app"
+        }
+    },
+    "authors": [
+        {
+            "name": "PortadordeCNPJ",
+            "email": "guilhermedesouzamuller@gmail.com"
+        }
+    ],
+    "require": {}
+}
