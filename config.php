@@ -3,8 +3,9 @@
 return [
     'db' => [
         'host' => 'localhost',
+        'daname' => 'db_users',
         'user' => 'root',
         'pass' => '',
-        'charset' => 'utf-8',
+        'charset' => 'utf8',
     ]
 ];

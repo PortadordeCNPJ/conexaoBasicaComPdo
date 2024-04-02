@@ -4,5 +4,11 @@ namespace app\models;
 
 class Model
 {
-    private $connection;
+    protected $connection;
+
+    public function __construct() {
+        
+        $this->connection = Connection::connect();
+    }
+    
 }
